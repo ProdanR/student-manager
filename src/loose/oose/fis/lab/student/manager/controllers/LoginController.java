@@ -35,7 +35,7 @@ public class LoginController {
         }
 
         if (username.equals("teacher") && password.equals("teacher")) {
-            loginMessage.setText("Logged in as teacher!");
+            loginMessage.setText("If login as a teacher succeeds, the user should be taken to the view-students scene.");
             return;
         }
 
